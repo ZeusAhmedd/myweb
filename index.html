@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>My Website</title>
+        <style>
+            @import  url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+            html {
+                font-family: "poppins" , sans-serif;
+                background-color: aliceblue;
+            }
+        </style>
+    </head>
+
+    <body>
+<header>
+    <div>
+        <img src="data:image/png;base64,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"
+alt="logo of the company"
+height="50px"
+width="150px">
+    </div>
+</header>
+<a href="" target="_blank">
+    <nav>
+    <ul style="list-style: none; display: flex; gap: 10px;">
+        <li>Home</li>
+        <li>About</li>
+        <li>Service</li>
+        <li>Gallery</li>
+        <li>Contact</li>
+    </ul>
+</nav>
+</a>
+<section>
+    <h1>The Best HTML Course By Thapa</h1>
+    <p>The best course ever on html</p>
+    <br>
+    <a href="https://www.youtube.com/watch?v=5ccq_nLHneE" target="-blank"> 
+    <img src="https://i.ytimg.com/vi/5ccq_nLHneE/hqdefault.jpg"  alt="Picture of The Tumbnail"
+    height="250px"
+    width="400px">
+    </a><br>
+    <a href="https://www.youtube.com/@ThapaTechnical" target="_blank"><button>Visit Youtube</button></a><span>
+    <a href="https://www.youtube.com/@ThapaTechnical" target="_blank"><button>see my works</button></a><br></span>
+</section>
+<h2>About Thapa Technical</h2>
+<p>It's great to meet you! I'm Thapa Technical!</p>
+<p>Thapa technical is an amazing youtube channel for learning Web Development. 
+    Their tutorials are easy to follow and enjoyable By watcing their videos
+     you can learn the skills needed for a web development job.
+      Check out Thapa Technical to boost your chances of getting hired on this field
+    </p>  
+    <p>My Coding Knowledge</p>
+        <form action="#">
+            <div>
+                <label for="range">HTML CODE:</label>
+                <input type="range" name="volume" min="0" max="100" value="100"/>
+            </div>
+            <div>
+                <label for="range">CSS CODE:</label>
+                <input type="range" name="volume" min="0" max="100" value="99"/>
+            </div>
+            <div>
+                <label for="range">Javascript CODE:</label>
+                <input type="range" name="volume" min="0" max="100" value="70"/>
+            </div>
+
+            <div>
+                <label for="range">Mern CODE:</label>
+                <input type="range" name="volume" min="0" max="100" />
+            </div>
+        </form>
+    
+           <section>
+            
+            <h3>our Services</h3>    
+            <div class="same">
+           <a href="https://www.youtube.com/watch?v=5ccq_nLHneE" target="_blank" class="same"> <img src="https://i.ytimg.com/vi/5ccq_nLHneE/hqdefault.jpg" alt="Html Website Development"
+            width="220"
+            height="130"><br>
+            <span>HTML Website development</span></a>
+            <br>
+            <br>
+            <a href="https://www.youtube.com/watch?v=oMXdbUN6h-Q" target="_blank">
+            <img src="https://i.ytimg.com/vi/oMXdbUN6h-Q/maxresdefault.jpg" alt="CSS Website development"
+            height="130"
+            width="220"><br>
+            <span>CSS Website development</span></a>
+            <br>
+            <br>
+            <a href="https://www.youtube.com/watch?v=KGkiIBTq0y0" target="_blank">
+            <img src="https://i.ytimg.com/vi/KGkiIBTq0y0/hqdefault.jpg" alt="JS Website development"
+            height="130"
+            width="220"><br>
+            <span>JS Website development</span></a>
+            <br>
+            <br>
+            <a href="https://www.youtube.com/watch?v=IymPq7ik29k&list=PLwGdqUZWnOp2Z3eFOgtOGvOWIk4e8Bsr_" target="_blank">
+            <img src="https://thapatechnical.shop/_next/image?url=https%3A%2F%2Fapi.thapatechnical.shop%2Fuploads%2Fimages%2F1700650934544-World%27s%20Best%20Mern%20Series.png&w=1920&q=75" alt="MERN Website development"
+            height="130"
+            width="220"><br>
+            <span>MERN Website development</span></a>
+            <br>
+            <br>
+            <a href="https://www.youtube.com/watch?v=EHTWMpD6S_0" target="_blank">
+            <img src="https://thapatechnical.shop/_next/image?url=https%3A%2F%2Fapi.thapatechnical.shop%2Fuploads%2Fimages%2F1700567615632-React1.png&w=1920&q=75" alt="React Website development"
+            height="130"
+            width="220"><br>
+            <span>React Website development</span></a>
+          </section>
+          </div>
+          <section>
+            
+            
+        
+
+            <h3>Our Blogs</h3>
+
+
+
+     
+
+            <h4>Elevate Your Web development Skills With Thapa Technical</h4>
+ 
+            <p> <strong>  Thapa technical </strong>   is an amazing youtube channel for learning Web Development. 
+                Their tutorials are easy to follow and enjoyable By watcing their videos
+                 you can learn the skills needed for a web development job.
+                  Check out Thapa Technical to boost your chances of getting hired on this field</p>
+               
+                  <h5>About Thapa Technical</h5>
+
+                    <p>Thapa technical is an amazing youtube channel for learning Web Development. 
+                        Their tutorials are easy to follow and enjoyable By watcing their videos
+                          you can learn the skills needed for a web development job.
+                            Check out Thapa Technical to boost your chances of getting hired on this field</p>
+                  
+                            <h5>Unlock Your Potential with East-to-Follow Tutorials</h5>
+                            <p>Thapa Technical understands that learning web development can be daunting,
+                                specially for beginners.Thats why their tutorials are thoughtfully designed to be easy to follow,
+                                ensuring that even the most complex concepts are broken down into managable steps.
+                                Whether you're a seasoned developer or just starting out,
+                                you'll find their tutorials to be a breath of fresh air in the world of online learning.
+                            </p>
+
+                            <h5>Enjoyable learning Experience</h5>
+                            <p>Learning doesn't have to be a tedious process.
+                                Thappa Technical has seamlessly blended education with entertainment,
+                                making the learning journey not only productive but enjoyable as well.
+                                Theri engaging teching style and relatable examples make even the most challenging topics seem approachable.
+                                You'll find yourself looking forward  to each new video ,
+                                eager to absorb more Knowledge. 
+                            </p>
+
+                            <h5>Your Gateway to Web Development Success</h5>
+                            <p>Dreaming of a career in Web development?
+                                Thapa Technicals equips you with the skills that employers are lookng for.
+                                From HTML and CSS to Javascript adn beyond,
+                                 their tutorials covers a wide range of technologies and techniques that are essential 
+                                 in today's competitive job market.
+                                 By following their videos,
+                                 You'll be well-prepared to tackel real-world development challenges. 
+
+                            </p>
+
+                            <h5>Boost Your Employability with Thapa Technical</h5>
+                            <p>In the dynamic world of development staying ahead of the curves is crucial.
+                                Thapa Technical not only helps you stay current with the latest industry trends but also provides you with
+                                practical skills that can set you apart from the competition.
+                                Whether you're aiming to switch careers or enhance your existing skills.
+                                Thapa Technical can be your key to unlocking new oppertunities.
+                                <br>
+                                <br>
+                                Don't miss out on the chance to enhance your web development skills and open doors to exciting careers prospects.
+                                Check out Thapa Technical on youtube today and take the first step towards the brighter future in the world of web development!. 
+                                <br>
+                                <br>
+                                Thank You for reading till the end
+                                <br>
+                                <br>
+                                I have also added Web development podcast on my Thapa Technical Website click on the play button to play. 
+
+                            </p>
+
+          </section>
+
+          <audio controls>
+            <source src="./audio.mp3.mp3"> 
+          </audio>
+
+<p>Hope You like my  other blogs too
+    <br>
+    <br>
+    Please subscribe to thapa technical Youtube channel<br>
+    Please subscribe to thapa technical Youtube channel<br>
+    Please subscribe to thapa technical Youtube channel<br>
+    Please subscribe to thapa technical Youtube channel<br>
+    Please subscribe to thapa technical Youtube channel<br>
+    Please subscribe to thapa technical Youtube channel<br>
+</p>
+
+<h5>Feel free to contact us</h5>
+  
+<section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57912.369606634755!2d67.11614257482216!3d24.880132613222283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3398c21ee360d%3A0x6114a9b297d321eb!2sShah%20Faisal%20Town%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1703336215906!5m2!1sen!2s" 
+    width="100%"
+     height="450" 
+     style="border:0;"
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    
+    </iframe>
+  
+      
+</section>
+  
+
+
+  
+<form>
+    <div>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" />
+    </div>
+    <br>
+    
+    <div>
+        <label for="email">Email</label><br>
+        <input type="email" id="email"
+        autocomplete="off">
+    </div>
+<br>
+
+    <div>
+        <label for="textarea">Message</label><br>
+        <textarea name="" id="textarea" cols="30" rows="10"> </textarea>
+        
+    </div>
+
+    <div>
+        <input type="submit" value="contact">
+    </div>
+     
+</form>
+<br>
+<br>
+
+<footer>Copyright &copy;2023 All rights reserved | This Template is made with Love by Umer</footer>
+
+    </body>
+</html>
